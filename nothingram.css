@@ -1,0 +1,166 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.logo{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(255, 154, 21);
+    padding-left: 5px;
+}
+li,a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    text-decoration: none;
+}
+header{
+    background-color: rgb(27, 19, 19);
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_links{
+    list-style: none;
+    padding-top: 20px;
+}
+.nav_links li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.nav_links li a{
+    padding-left: 10px;
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: rgb(0, 154, 210);
+}
+h1{
+    color: rgb(26, 14, 14);
+    font-family: 'Roboto';
+    padding-top: 20px;
+}
+h2{
+    color: burlywood;
+    font-family:'Montserrat';
+}
+h3{
+    color: rgb(43, 37, 17);
+    padding-top: 5px;
+    font-family: 'Marvel';
+}
+label{
+    font-size: 25px;
+}
+.mainheading{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(60, 0, 85);
+}
+.belownav{
+    background-color: rgb(234, 248, 251);
+}
+.Rheading{
+    color: coral;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    padding-top: 77px;
+    padding-left: 42px;
+}
+.Rpar{
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    float: right;
+    padding-top: 50px;
+}
+.sell{
+    font-weight: bold;
+    font-family: 'Poppins';
+    padding-top: 219px;
+}
+.buy1{
+    color: rgb(177, 133, 133);
+}
+.sell ul li a{
+    color: red;
+    padding-left: 715px;
+}
+.sell ul li a:hover{
+    color: pink;
+}
+.humroblab{
+    font-family: 'Amatic SC';
+    font-size: 45px;
+    font-weight: bold;
+}
+.humrobpar{
+    font-family: 'Sofia sans';
+    font-size: 20px;
+}
+.humroblab1{
+    font-family: 'Amatic SC';
+    font-size: 45px;
+    font-weight: bold;
+}
+.humrobclas li{
+    font-family: 'Sofia sans';
+    color: rgb(0, 0, 0);
+}
+.humrobclas a{
+    color: rgb(255, 1, 1);
+}
+.humrobclas a:hover{
+    color: rgb(152, 61, 61);
+}
+.calculator {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 250px;
+  }
+  
+.display {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: right;
+}
+  
+.display input[type="text"] {
+    border: none;
+    font-size: 24px;
+    width: 100%;
+}
+  
+.buttons {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(4, 1fr);
+}
+  
+.buttons button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+}
+  
+.buttons button:hover {
+    background-color: #ccc;
+    color: #fff;
+}

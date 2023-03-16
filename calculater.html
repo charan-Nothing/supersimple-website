@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nothing</title>
+    <link rel="stylesheet" href="nothingram.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Marvel:wght@700&family=Montserrat:wght@600;700&family=Poppins:wght@800&family=Prompt&family=Roboto&family=Sofia+Sans&family=Sofia+Sans&display=swap" rel="stylesheet">
+</head>
+<script src="calculater.js"></script>
+<body>
+    <div class="navbar">
+        <header>
+            <label class="logo">Nothing</label>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="NothingRam.html">Home</a></li>
+                    <li><a href="nothing.html">Nothing</a></li>
+                    <li><a href="calculater.html">calculator</a></li>
+                    <li><a href="#">IDK</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="calculator">
+        <div class="display">
+          <input type="text" id="result" readonly>
+        </div>
+        <div class="buttons">
+          <button onclick="clearResult()">C</button>
+          <button onclick="backspace()">←</button>
+          <button onclick="calculate('%')">%</button>
+          <button onclick="calculate('/')">/</button>
+          <button onclick="appendToResult('7')">7</button>
+          <button onclick="appendToResult('8')">8</button>
+          <button onclick="appendToResult('9')">9</button>
+          <button onclick="calculate('*')">*</button>
+          <button onclick="appendToResult('4')">4</button>
+          <button onclick="appendToResult('5')">5</button>
+          <button onclick="appendToResult('6')">6</button>
+          <button onclick="calculate('-')">-</button>
+          <button onclick="appendToResult('1')">1</button>
+          <button onclick="appendToResult('2')">2</button>
+          <button onclick="appendToResult('3')">3</button>
+          <button onclick="calculate('+')">+</button>
+          <button onclick="appendToResult('0')">0</button>
+          <button onclick="appendToResult('.')">.</button>
+          <button onclick="calculate('=')">=</button>
+        </div>
+      </div>
+</body>
+</html>
